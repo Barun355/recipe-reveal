@@ -5,7 +5,7 @@ import { RecipeCard } from '../../components/RecipeCard';
 import { Input } from '../../components/ui/input';
 import { Button } from '../../components/ui/button';
 import { Checkbox } from '../../components/ui/checkbox';
-import { isMobile } from '../../utils';
+import { isMobile, scrollToTop } from '../../utils';
 import { useNavigate } from 'react-router-dom';
 
 
@@ -95,6 +95,7 @@ export function RecipesPage() {
 
   useEffect(() => {
     isMobile() ? setShowFilters(false) : setShowFilters(true);
+    scrollToTop()
   }, [])
 
   return (

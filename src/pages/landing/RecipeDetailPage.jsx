@@ -54,7 +54,7 @@ export function RecipeDetailPage() {
         <ImageWithFallback
           src={recipe.image}
           alt={recipe.name}
-          className="w-full h-full object-cover object-[center_70%]"
+          className="w-full h-full object-cover"
         />
 
         <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/40 to-transparent" />

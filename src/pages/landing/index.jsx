@@ -176,7 +176,7 @@ const Landing = () => {
               />
               <div className="relative rounded-3xl overflow-hidden shadow-2xl">
                 <ImageWithFallback
-                  src={heroRecipe?.image}
+                  src={heroRecipe?.prevImage}
                   alt={heroRecipe?.name}
                   className="w-full aspect-square object-cover"
                 />
