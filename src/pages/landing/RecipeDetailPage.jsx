@@ -313,34 +313,45 @@ export function RecipeDetailPage() {
               >
                 Cooking Process
               </h2>
-              <div
-                className="rounded-xl p-6"
-                style={{
-                  backgroundColor: "var(--card)",
-                  border: "1px solid var(--border)",
-                }}
-              >
-                <ol className="space-y-4">
-                  {recipe.cookingProcess.map((step, idx) => (
-                    <li key={idx} className="flex gap-4">
-                      <span
-                        className="shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-['Poppins'] font-semibold"
-                        style={{
-                          backgroundColor: "var(--brand-primary)",
-                          color: "var(--bg-primary)",
-                        }}
-                      >
-                        {idx + 1}
-                      </span>
-                      <p
-                        className="font-['Lato'] pt-1"
-                        style={{ color: "var(--text-primary)" }}
-                      >
-                        {step}
-                      </p>
-                    </li>
-                  ))}
-                </ol>
+              <div className="rounded-xl p-6 border-border bg-card">
+                <div className="space-y-6">
+                  {Object.entries(recipe.cookingProcess).map(
+                    ([subProcess, steps], subIdx) => (
+                      <div key={subIdx}>
+                        <h3
+                          className="font-['Poppins'] font-semibold mb-3"
+                          style={{
+                            color: "var(--text-primary)",
+                            fontSize: "1.25rem",
+                          }}
+                        >
+                          {subProcess}
+                        </h3>
+                        <ol className="space-y-4">
+                          {steps.map((step, stepIdx) => (
+                            <li key={stepIdx} className="flex gap-4">
+                              <span
+                                className="shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-['Poppins'] font-semibold"
+                                style={{
+                                  backgroundColor: "var(--brand-primary)",
+                                  color: "var(--bg-primary)",
+                                }}
+                              >
+                                {stepIdx + 1}
+                              </span>
+                              <p
+                                className="font-['Lato'] pt-1"
+                                style={{ color: "var(--text-primary)" }}
+                              >
+                                {step}
+                              </p>
+                            </li>
+                          ))}
+                        </ol>
+                      </div>
+                    )
+                  )}
+                </div>
               </div>
             </section>
 
@@ -364,6 +375,47 @@ export function RecipeDetailPage() {
               >
                 <ol className="space-y-3">
                   {recipe.postCookingProcess.map((step, idx) => (
+                    <li key={idx} className="flex gap-4">
+                      <span
+                        className="shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-['Poppins'] font-semibold"
+                        style={{
+                          backgroundColor: "var(--brand-primary)",
+                          color: "var(--bg-primary)",
+                        }}
+                      >
+                        {idx + 1}
+                      </span>
+                      <p
+                        className="font-['Lato'] pt-1"
+                        style={{ color: "var(--text-primary)" }}
+                      >
+                        {step}
+                      </p>
+                    </li>
+                  ))}
+                </ol>
+              </div>
+            </section>
+            {/* Serving Suggestion */}
+            <section>
+              <h2
+                className="font-['Poppins'] font-semibold mb-4"
+                style={{
+                  color: "var(--text-primary)",
+                  fontSize: "1.75rem",
+                }}
+              >
+                Serving Suggestions
+              </h2>
+              <div
+                className="rounded-xl p-6"
+                style={{
+                  backgroundColor: "var(--card)",
+                  border: "1px solid var(--border)",
+                }}
+              >
+                <ol className="space-y-3">
+                  {recipe.servingSuggestions?.map((step, idx) => (
                     <li key={idx} className="flex gap-4">
                       <span
                         className="shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-['Poppins'] font-semibold"

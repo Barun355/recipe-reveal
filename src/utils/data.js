@@ -1,10 +1,12 @@
-export const recipes = [
+export const oldRecipes = [
   {
     id: "1",
     name: "Paneer Tikka Masala",
     category: "Other",
-    image: "https://res.cloudinary.com/rf-automation-test/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1761838933/recipe-reveal/recipes-images/paneer-tikka-16-4_telfkg.png",
-    prevImage: 'https://res.cloudinary.com/rf-automation-test/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1761838930/recipe-reveal/recipes-images/paneer-tikka-1-1_gaikpp.png',
+    image:
+      "https://res.cloudinary.com/rf-automation-test/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1761838933/recipe-reveal/recipes-images/paneer-tikka-16-4_telfkg.png",
+    prevImage:
+      "https://res.cloudinary.com/rf-automation-test/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1761838930/recipe-reveal/recipes-images/paneer-tikka-1-1_gaikpp.png",
     rating: 4.8,
     reviews: 234,
     prepTime: "20min",
@@ -103,8 +105,10 @@ export const recipes = [
     id: "2",
     name: "Chicken Biryani",
     category: "Non-Veg",
-    image: "https://res.cloudinary.com/rf-automation-test/image/upload/c_fill,g_auto,h_250,w_970/b_rgb:000000,e_gradient_fade,y_-0.50/c_scale,co_rgb:ffffff,fl_relative,l_text:montserrat_25_style_light_align_center:Shop%20Now,w_0.5,y_0.18/v1761837097/recipe-reveal/recipes-images/chicken-biryani-16-4_ossstp.png",
-    prevImage: 'https://res.cloudinary.com/rf-automation-test/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1761837094/recipe-reveal/recipes-images/chicken-birayani-1-1_u44uue.png',
+    image:
+      "https://res.cloudinary.com/rf-automation-test/image/upload/c_fill,g_auto,h_250,w_970/b_rgb:000000,e_gradient_fade,y_-0.50/c_scale,co_rgb:ffffff,fl_relative,l_text:montserrat_25_style_light_align_center:Shop%20Now,w_0.5,y_0.18/v1761837097/recipe-reveal/recipes-images/chicken-biryani-16-4_ossstp.png",
+    prevImage:
+      "https://res.cloudinary.com/rf-automation-test/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1761837094/recipe-reveal/recipes-images/chicken-birayani-1-1_u44uue.png",
     rating: 4.9,
     reviews: 567,
     prepTime: "40min",
@@ -195,8 +199,10 @@ export const recipes = [
     id: "3",
     name: "Moong Dal Chilla",
     category: "Vegan",
-    image: "https://res.cloudinary.com/rf-automation-test/image/upload/c_fill,g_auto,h_250,w_970/b_rgb:000000,e_gradient_fade,y_-0.50/c_scale,co_rgb:ffffff,fl_relative,l_text:montserrat_25_style_light_align_center:Shop%20Now,w_0.5,y_0.18/v1761837103/recipe-reveal/recipes-images/moong-dal-chilla-16-4_qtcqfk.png",
-    prevImage: 'https://res.cloudinary.com/rf-automation-test/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1761837100/recipe-reveal/recipes-images/moong-dal-chilla-1-1_meppiy.png',
+    image:
+      "https://res.cloudinary.com/rf-automation-test/image/upload/c_fill,g_auto,h_250,w_970/b_rgb:000000,e_gradient_fade,y_-0.50/c_scale,co_rgb:ffffff,fl_relative,l_text:montserrat_25_style_light_align_center:Shop%20Now,w_0.5,y_0.18/v1761837103/recipe-reveal/recipes-images/moong-dal-chilla-16-4_qtcqfk.png",
+    prevImage:
+      "https://res.cloudinary.com/rf-automation-test/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1761837100/recipe-reveal/recipes-images/moong-dal-chilla-1-1_meppiy.png",
     rating: 4.6,
     reviews: 189,
     prepTime: "10min",
@@ -280,8 +286,10 @@ export const recipes = [
     id: "4",
     name: "Pallak Paneer",
     category: "Other",
-    image: "https://res.cloudinary.com/rf-automation-test/image/upload/c_fill,g_auto,h_250,w_970/b_rgb:000000,e_gradient_fade,y_-0.50/c_scale,co_rgb:ffffff,fl_relative,l_text:montserrat_25_style_light_align_center:Shop%20Now,w_0.5,y_0.18/v1761837099/recipe-reveal/recipes-images/pallak-paneer-16-4_tqtray.png",
-    prevImage: 'https://res.cloudinary.com/rf-automation-test/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1761837099/recipe-reveal/recipes-images/pallak-paneer-1-1_pjf7kh.png',
+    image:
+      "https://res.cloudinary.com/rf-automation-test/image/upload/c_fill,g_auto,h_250,w_970/b_rgb:000000,e_gradient_fade,y_-0.50/c_scale,co_rgb:ffffff,fl_relative,l_text:montserrat_25_style_light_align_center:Shop%20Now,w_0.5,y_0.18/v1761837099/recipe-reveal/recipes-images/pallak-paneer-16-4_tqtray.png",
+    prevImage:
+      "https://res.cloudinary.com/rf-automation-test/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1761837099/recipe-reveal/recipes-images/pallak-paneer-1-1_pjf7kh.png",
     rating: 4.7,
     reviews: 298,
     prepTime: "15min",
@@ -368,8 +376,10 @@ export const recipes = [
     id: "5",
     name: "Masala Dosa",
     category: "Vegan",
-    image: "https://res.cloudinary.com/rf-automation-test/image/upload/c_fill,g_auto,h_250,w_970/b_rgb:000000,e_gradient_fade,y_-0.50/c_scale,co_rgb:ffffff,fl_relative,l_text:montserrat_25_style_light_align_center:Shop%20Now,w_0.5,y_0.18/v1761837099/recipe-reveal/recipes-images/masala-dhosa-16-4_xjcmax.png",
-    prevImage: 'https://res.cloudinary.com/rf-automation-test/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1761837098/recipe-reveal/recipes-images/masala-dhosa-1-1_zusv8o.png',
+    image:
+      "https://res.cloudinary.com/rf-automation-test/image/upload/c_fill,g_auto,h_250,w_970/b_rgb:000000,e_gradient_fade,y_-0.50/c_scale,co_rgb:ffffff,fl_relative,l_text:montserrat_25_style_light_align_center:Shop%20Now,w_0.5,y_0.18/v1761837099/recipe-reveal/recipes-images/masala-dhosa-16-4_xjcmax.png",
+    prevImage:
+      "https://res.cloudinary.com/rf-automation-test/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1761837098/recipe-reveal/recipes-images/masala-dhosa-1-1_zusv8o.png",
     rating: 4.9,
     reviews: 456,
     prepTime: "8 hours (fermentation)",
@@ -454,8 +464,10 @@ export const recipes = [
     id: "6",
     name: "Chole Bhature",
     category: "Vegan",
-    image: "https://res.cloudinary.com/rf-automation-test/image/upload/c_fill,g_auto,h_250,w_970/b_rgb:000000,e_gradient_fade,y_-0.50/c_scale,co_rgb:ffffff,fl_relative,l_text:montserrat_25_style_light_align_center:Shop%20Now,w_0.5,y_0.18/v1761837095/recipe-reveal/recipes-images/chole-bhature-16-4_kyhdob.png",
-    prevImage: 'https://res.cloudinary.com/rf-automation-test/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1761837092/recipe-reveal/recipes-images/chole-bhature-1-1_axdvqb.png',
+    image:
+      "https://res.cloudinary.com/rf-automation-test/image/upload/c_fill,g_auto,h_250,w_970/b_rgb:000000,e_gradient_fade,y_-0.50/c_scale,co_rgb:ffffff,fl_relative,l_text:montserrat_25_style_light_align_center:Shop%20Now,w_0.5,y_0.18/v1761837095/recipe-reveal/recipes-images/chole-bhature-16-4_kyhdob.png",
+    prevImage:
+      "https://res.cloudinary.com/rf-automation-test/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1761837092/recipe-reveal/recipes-images/chole-bhature-1-1_axdvqb.png",
     rating: 4.8,
     reviews: 402,
     prepTime: "8 hours (soaking)",
@@ -539,8 +551,10 @@ export const recipes = [
     id: "7",
     name: "Fish Curry (Bengali Style)",
     category: "Non-Veg",
-    image: "https://res.cloudinary.com/rf-automation-test/image/upload/c_fill,g_auto,h_250,w_970/b_rgb:000000,e_gradient_fade,y_-0.50/c_scale,co_rgb:ffffff,fl_relative,l_text:montserrat_25_style_light_align_center:Shop%20Now,w_0.5,y_0.18/v1761837096/recipe-reveal/recipes-images/fish-curry-16-4_dvlsc7.png",
-    prevImage: 'https://res.cloudinary.com/rf-automation-test/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1761837096/recipe-reveal/recipes-images/fish-curry-1-1_pfyet4.png',
+    image:
+      "https://res.cloudinary.com/rf-automation-test/image/upload/c_fill,g_auto,h_250,w_970/b_rgb:000000,e_gradient_fade,y_-0.50/c_scale,co_rgb:ffffff,fl_relative,l_text:montserrat_25_style_light_align_center:Shop%20Now,w_0.5,y_0.18/v1761837096/recipe-reveal/recipes-images/fish-curry-16-4_dvlsc7.png",
+    prevImage:
+      "https://res.cloudinary.com/rf-automation-test/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1761837096/recipe-reveal/recipes-images/fish-curry-1-1_pfyet4.png",
     rating: 4.7,
     reviews: 178,
     prepTime: "15min",
@@ -625,8 +639,10 @@ export const recipes = [
     id: "8",
     name: "Vegetable Pulao",
     category: "Vegan",
-    image: "https://res.cloudinary.com/rf-automation-test/image/upload/c_fill,g_auto,h_250,w_970/b_rgb:000000,e_gradient_fade,y_-0.50/c_scale,co_rgb:ffffff,fl_relative,l_text:montserrat_25_style_light_align_center:Shop%20Now,w_0.5,y_0.18/v1761837101/recipe-reveal/recipes-images/vegetable-pulao-16-4_zleide.png",
-    prevImage: 'https://res.cloudinary.com/rf-automation-test/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1761837103/recipe-reveal/recipes-images/vegetable-pulao-1-1_sxzc9l.png',
+    image:
+      "https://res.cloudinary.com/rf-automation-test/image/upload/c_fill,g_auto,h_250,w_970/b_rgb:000000,e_gradient_fade,y_-0.50/c_scale,co_rgb:ffffff,fl_relative,l_text:montserrat_25_style_light_align_center:Shop%20Now,w_0.5,y_0.18/v1761837101/recipe-reveal/recipes-images/vegetable-pulao-16-4_zleide.png",
+    prevImage:
+      "https://res.cloudinary.com/rf-automation-test/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1761837103/recipe-reveal/recipes-images/vegetable-pulao-1-1_sxzc9l.png",
     rating: 4.5,
     reviews: 234,
     prepTime: "15min",
@@ -705,8 +721,10 @@ export const recipes = [
     id: "9",
     name: "Egg Curry",
     category: "Non-Veg",
-    image: "https://res.cloudinary.com/rf-automation-test/image/upload/c_fill,g_auto,h_250,w_970/b_rgb:000000,e_gradient_fade,y_-0.50/c_scale,co_rgb:ffffff,fl_relative,l_text:montserrat_25_style_light_align_center:Shop%20Now,w_0.5,y_0.18/v1761837094/recipe-reveal/recipes-images/egg-curry-16-4_oyvm35.png",
-    prevImage: 'https://res.cloudinary.com/rf-automation-test/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1761837096/recipe-reveal/recipes-images/egg-curry-1-1_utzdgw.png',
+    image:
+      "https://res.cloudinary.com/rf-automation-test/image/upload/c_fill,g_auto,h_250,w_970/b_rgb:000000,e_gradient_fade,y_-0.50/c_scale,co_rgb:ffffff,fl_relative,l_text:montserrat_25_style_light_align_center:Shop%20Now,w_0.5,y_0.18/v1761837094/recipe-reveal/recipes-images/egg-curry-16-4_oyvm35.png",
+    prevImage:
+      "https://res.cloudinary.com/rf-automation-test/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1761837096/recipe-reveal/recipes-images/egg-curry-1-1_utzdgw.png",
     rating: 4.6,
     reviews: 312,
     prepTime: "10min",
@@ -780,8 +798,10 @@ export const recipes = [
     id: "10",
     name: "Rajma Masala",
     category: "Vegan",
-    image: "https://res.cloudinary.com/rf-automation-test/image/upload/c_fill,g_auto,h_250,w_970/b_rgb:000000,e_gradient_fade,y_-0.50/c_scale,co_rgb:ffffff,fl_relative,l_text:montserrat_25_style_light_align_center:Shop%20Now,w_0.5,y_0.18/v1761837102/recipe-reveal/recipes-images/rajma-masala-16-4_maqvwp.png",
-    prevImage: 'https://res.cloudinary.com/rf-automation-test/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1761837103/recipe-reveal/recipes-images/rajma-masala-1-1_wu882d.png',
+    image:
+      "https://res.cloudinary.com/rf-automation-test/image/upload/c_fill,g_auto,h_250,w_970/b_rgb:000000,e_gradient_fade,y_-0.50/c_scale,co_rgb:ffffff,fl_relative,l_text:montserrat_25_style_light_align_center:Shop%20Now,w_0.5,y_0.18/v1761837102/recipe-reveal/recipes-images/rajma-masala-16-4_maqvwp.png",
+    prevImage:
+      "https://res.cloudinary.com/rf-automation-test/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1761837103/recipe-reveal/recipes-images/rajma-masala-1-1_wu882d.png",
     rating: 4.7,
     reviews: 289,
     prepTime: "8 hours (soaking)",
@@ -859,15 +879,15 @@ export const recipes = [
   },
 ];
 
-const newRecipe = [
+export const recipes = [
   {
-    id: "11",
+    id: "1",
     name: "Butter Chicken Makhani",
     category: "non-veg",
     image: "butter chicken makhani",
-    prevImage: '',
     prevImage: "",
-    prevImage: '',
+    prevImage: "",
+    prevImage: "",
     rating: 4.7,
     reviews: 289,
     prepTime: "20min",
@@ -1005,6 +1025,14 @@ const newRecipe = [
       fats: "6g per serving",
       fiber: "14g per serving",
     },
+    servingSuggestions: [
+      "Serve hot in a traditional copper or brass serving bowl for authentic presentation",
+      "Arrange on individual plates with a portion of naan or jeera rice on the side",
+      "Garnish with a swirl of fresh cream, kasuri methi, and a few paneer cubes on top",
+      "Accompany with sliced onions, green chutney, and lemon wedges",
+      "For a complete meal, serve with dal and raita on the side",
+      "Present in a warm serving dish to maintain temperature throughout the meal",
+    ],
     tipsAndTricks: [
       "Rajma must be very soft for best curry",
       "Slow cooking enhances flavors",
