@@ -338,7 +338,7 @@ const Landing = () => {
       </section>
 
       {/* Blogs Section */}
-      {/* <section className="py-16 px-4">
+      <section className="py-16 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2
@@ -428,7 +428,7 @@ const Landing = () => {
             ))}
           </div>
         </div>
-      </section> */}
+      </section>
     </>
   );
 };
