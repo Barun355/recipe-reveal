@@ -1,16 +1,13 @@
 import { ArrowRight, Clock, Star, TrendingUp } from "lucide-react";
-import {
-  getFeaturedRecipes,
-  getHighProteinRecipeByTime,
-  recipes,
-} from "../../utils/data";
 import { Button } from "../../components/ui/button";
 import { RecipeCard } from "../../components/RecipeCard";
 import ImageWithFallback from "../../components/figma/ImageWithFallback";
 import { useNavigate } from "react-router-dom";
+import useRecipes from "../../store/useRecipes";
 
 const Landing = () => {
   const navigate = useNavigate();
+  const { recipes, getFeaturedRecipes, getHighProteinRecipeByTime } = useRecipes()
 
   const onRecipeClick = (recipe) => {
     navigate(`/recipes/${recipe.id}`);
@@ -176,7 +173,7 @@ const Landing = () => {
               />
               <div className="relative rounded-3xl overflow-hidden shadow-2xl">
                 <ImageWithFallback
-                  src={heroRecipe?.prevImage}
+                  src={heroRecipe?.previewImage}
                   alt={heroRecipe?.name}
                   className="w-full aspect-square object-cover"
                 />
@@ -305,7 +302,7 @@ const Landing = () => {
               recipes
                 .slice(0, 8)
                 .map((item) => ({
-                  query: { src: item.prevImage, alt: item.description },
+                  query: { src: item.previewImage, alt: item.description },
                 }))
                 .map((query, idx) => (
                   <div

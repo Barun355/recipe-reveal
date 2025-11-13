@@ -7,6 +7,9 @@ import ErrorPage from "./pages/Error";
 import LandingLayout from "./pages/landing/Layout";
 import { RecipeDetailPage } from "./pages/landing/RecipeDetailPage";
 import { RecipesPage } from "./pages/landing/Recipes";
+import VerifyEmailPage from "./pages/verify-email";
+import { SignupPage } from "./pages/sign-up";
+import { LoginPage } from "./pages/login-page";
 
 const router = createBrowserRouter([
   {
@@ -26,6 +29,18 @@ const router = createBrowserRouter([
         element: <RecipeDetailPage />,
       },
     ],
+  },
+  {
+    path: "/verify-email",
+    element: <VerifyEmailPage />,
+  },
+  {
+    path: "/login",
+    element: <LoginPage />,
+  },
+  {
+    path: "/signup",
+    element: <SignupPage />,
   },
   {
     path: "/*",

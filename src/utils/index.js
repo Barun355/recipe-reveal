@@ -17,3 +17,11 @@ export function scrollToTop() {
       window.scrollTo({ top: 0, behavior: "smooth" });
     }
 }
+
+export function currentPage() {
+  if (typeof window !== "undefined") {
+    const currentUrl = window.location.pathname.split("/");
+    return currentUrl[currentUrl.length - 1] || "home";
+  }
+  return null;
+}
